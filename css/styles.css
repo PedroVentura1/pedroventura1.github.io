@@ -164,6 +164,23 @@ color: #3f433f;
     padding-top: 8em;
 }
 
+.images {
+    display: inline-flex;
+    float: left;
+    width: 100%;
+    padding: 10em;
+    padding-top: 1em;
+    padding-bottom: 0;
+}
+
+.images img {
+/*    This is for new images and tittle */
+        float: left;
+    width: 50%;
+    height: fit-content;
+    padding: 0.4em;  /*  I put this space betwen images  */
+}
+
 .new_tittle {
     float: left;
     width: 100%;
