@@ -93,6 +93,14 @@ main {
 section {
     margin-bottom: 2em;
 }
+
+section h2 {
+/*    margin-bottom: 0.5em;*/
+    border-top-style: dotted;
+    border-color: #A0A0A0;
+    padding-top: 1em;
+}
+
 /* Main Content */
 .container {
     display: flex;
@@ -155,6 +163,22 @@ color: #3f433f;
     padding: 2em;
     padding-top: 8em;
 }
+
+.new_tittle {
+    float: left;
+    width: 100%;
+    padding: 11em;
+    padding-bottom: 0;
+    padding-top: 0;
+}
+
+.nostyle{
+    border-top-style: none;
+}
+.subtitle {
+        padding-top: 0.2em;
+}
+
 
 
 @font-face {
