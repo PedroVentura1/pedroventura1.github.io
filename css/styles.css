@@ -1,319 +1,142 @@
-body {
-    font-family: 'LaFont', Helvetica, Arial, sans-serif;
-    line-height: 1.8em;
-    font-size: 12.5pt;
-    letter-spacing: .2px;
-    margin: 8%;
-    margin-top: 3%;
-    margin-bottom: 0px;
-    color: #4A4A4A;
-}
-header img{     
-    width: 5em;
-    height: 5em;
-    border: none;
-    margin-right: 1.5em;
-    float: left;
-    border-radius: 50%;
-}
-.port-title {  
-    margin-top: 3em;
-    color:  #4A90E2;
-}
-header nav ul{
-    list-style: none;
-    font-size: 1.4em;    
-    margin-bottom: 5%;   
-    padding-left: 0px; 
-    border-bottom: 1px solid #bbbbbb;
-}
-header nav ul li{     
-    padding-bottom:8px;    
-    width: 5em;
-    display: inline-block;
-}
-header nav ul li:first-child{      
-    padding-bottom: 5px;
-    margin-right: 1.2em;
-}
-
-header nav ul li a {
-  text-decoration:  none;
-  padding-left: 8px;
-  color: #BD10E0;
-}
-header nav ul li a:hover{
-  color: #4A4A4A;
-}
-hgroup h1{
-      font-size: 1.6em;
-}
-.collage{
-    margin: 0 auto;
-    text-align: center;
-}
-.collage img{
-  width: 60%; 
-  max-width: 200px; 
-}
-section{   
-    line-height: 1.8em;
-    font-size: 12pt;    
-    margin-top: 0px;
-    width: 100%;
-}
-.arrow{
-  background-size: 12px;
-  background-repeat: no-repeat;
-  padding-left: 16px;
-  font-size: 16px;
-  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFkpXl6n0d5dimLYkvWS1AKEZe-4owcThJM2VGVIN6jpB2FyG_gQ);
-  position: fixed;
-  background-color: #fff;
-  width: 82.8%;
-  background-position-x: 2px;
-  border-bottom: .5px solid #d0d0d0;
-  background-position-y: 14px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  top: 0;
-  z-index: 2;
-}
-.arrow a {
-  text-decoration:  none;
-}
-.menu .arrow img{
-  width: 26px;
-  height: 26px;
-  float: right;
-  margin-right: 60px;
-  margin-top: -6px;  
-}
-.Box_container {
-  width: 50%;
-  height: auto;
-  float: left;
-  margin-top: 2em; 
-}
-.Box_container:last-child {
-  margin-bottom: 3%;
-}
-.txt_container {
-  width: 49.99%;
-  float: left;
-  position: relative;
-  text-align: center;
-}
-.txt_container p{
-  padding: .5em;
-  display: block;
-  margin: auto;
-  margin-bottom: 10%;
-  text-align: left;
-}
-
-.txt_container span{
-  font-size: 1em;
-  border-radius: 5px; 
-  border: 1px solid #bdbdbd;    
-  cursor: pointer;
-  padding: 8px 60px;
-  position: absolute;
-  top: calc(250px + -3em);
-  left: 15%;
-}   
-
-.txt_container span:hover{
-  background: #fff;
-  font-weight: bold;
-  box-shadow: 0 0 8px #286fc1;
-  color: #4a90e2;
-  border: 1px solid #4a90e2;
-} 
-.img_container {
-  width: 49.99%;
-  height: auto;
-  float: left;
-}
-.img_container figure {
-    margin: 0 auto;
-}
-.img_container figure img{
-  display: block;
-  margin: auto;
-  width: 90%;
-  max-width: 250px;
-}
-
-.ed-modal-container {
-  background-color: rgba(0, 0, 0, 0.8);
-  position: fixed;
-  top: 0;
-  width: 100%;
-  height: 100vh;
-  left: 0;
-  z-index: 4;
-}
-
-.ed-modal-container::before{
-  content: 'X';
-  right: 1.6em;
-  position: absolute;
-  top: .9em;
-  width: 2.2rem;
-  line-height: 2.2rem;
-  text-align: center;
-  cursor: pointer;
-  border-radius: 10.25rem;
-  background-color: #fdf4ff;
-  font-size: 1.3em;
-  color: #bd10e0;
-  z-index: 2;
-}
-
-.ed-modal-content {
-    top: 10px;
-    position: relative;
-    background-color: #fefefe;
-    margin: auto;
-    padding: 0;
-    border: 1px solid #888;
-    width: 98%;
-    max-width: 1400px;
-    height: 96vh;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
-    -webkit-animation-name: animatetop;
-    -webkit-animation-duration: 0.4s;
-    animation-name: animatetop;
-    animation-duration: 0.4s;
-    overflow: scroll;
-}
-
-/* Add Animation */
-@-webkit-keyframes animatetop {
-    from {top:-300px; opacity:0} 
-    to {top:0; opacity:1}
-}
-
-@keyframes animatetop {
-    from {top:-300px; opacity:0}
-    to {top:0; opacity:1}
-}
-
-#otroBtn{
-  border: 1px solid red;
-  width: 150px;
-  padding: 10px;
-  background: #84b3d2;
-  cursor: pointer;
-  margin: 5px;      
-}
-
-#btnThree{
-  border: 1px solid #3b7379;
-  width: 150px;
-  padding: 10px;
-  background: yellowgreen;
-  cursor: pointer;
-  margin: 5px;
-}
-
-.titleDetaill h3{
-    border-bottom: .5px solid #d0d0d0;
-    background: #c2eaf7;    
-
-    padding: 10px 0px 10px 10px;
+* {
     margin: 0;
-} 
-.modal-description{  
-  width: 54.99%;  
-  float: left;
+    padding: 0;
+    box-sizing: border-box;
+    padding-top: 0.6em;
 }
-.lg-description{
-  width: 35.99%;
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
 }
-.modal-images{
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: .1.1250em;
+    color: #4a4a4a;
+    background: #F4F4F4;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+/*    background-color: #333;*/
+    color: white;
+    padding: 3em;
+/*    styles for fixed position*/
+    position: fixed;
+    background-color: #f4f4f4;
+    width: 100%;
+    top: 0;
+    border-color: #cccccc;
+    border-bottom-style: dotted;
+    padding-bottom: 1.3em;
+    z-index: 1;
+}
+
+nav img{
     float: left;
-    height: auto;
-    width: 40%;
-}
-.lgmodal-image{
-    width: 60%;
-}
-.modal-images figure {
-    text-align: center;
-}
-.modal-images figure img {
-    width: 80%;
-}
-.lgmodal-image figure img {
-    width: 90%;
-    margin-top: 10px;
+    margin: 0.3em 1.6em;
+    margin-top: 0;
+    cursor: pointer;
 }
 
-.modal-images .btn-slide {
-    width: 42px;
-    height: 36px;
-    background: #c7c7c7;
-    cursor: pointer;  
-    border-radius: 60%;
-    padding-top: 6px;
-    opacity: .5;
-    text-align: center;
-    position: relative;
-    top: 10em;
-  }
+nav img:hover {
+/*    filter: brightness(0) saturate(100%) invert(22%) sepia(86%) saturate(7482%) hue-rotate(353deg) brightness(106%) contrast(129%);*/
+      filter: invert(0.38) sepia(1) saturate(17.6) hue-rotate(326deg) brightness(1.2);
 
-.modal-images .btn-slide:first-of-type{
-    float: left;
-    left: 1em;
-}
-.modal-images .btn-slide:last-of-type{    
-    float: right;
-    right: 1em;
 }
 
-.modal-content .modal-images figure{text-align: center;}
-.modal-content .modal-images figure img{
-  width: 80%;  
-}
-.link{
-  color: #BD10E0;
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: right;
+
 }
 
-#informacionVerify, #infoSisteActinver, #informacionBbva, #infoBursanet, #infoModeloNow, #infoKanzlei {
-  display: none;
-}
-#verifyItemImg, #sisActItemImg, #bbvaItemImg, #bursanetItemImg, #modeloItemImg, #kanzleiItemImg {
-  cursor: pointer;
-}
-.img_container figure img:hover{
-  -webkit-box-shadow: 0 0 5px #a5a5a5;
--moz-box-shadow: 0 0 5px #a5a5a5;
-box-shadow: 0 0 5px #a5a5a5;
+nav ul li {
+    margin: 0 1em;
 }
 
-.content {
-  min-height: calc(88vh - 50px);
+nav ul li a {
+    color: #333;
+    text-decoration: none;
+    font-size: 1.18em;
 }
-footer {  
-  height: 50px;  
-  font-size: .7em;
-  text-align: center;
-  padding: 15px;
-  clear: both;
+
+nav ul li a:hover {
+    color: black;
+    text-decoration: underline;
+    color: #3E3535;
+    font-weight: 600;
 }
-footer p{
-  margin: 0;
+
+nav ul li a.active {
+    color: #333;
+  text-decoration: underline;
+  font-weight: 600;
 }
-footer p a{
-  text-decoration: none;
-  padding: 1%;
-  margin-right: 5px;
+
+main {
+    flex: 1;
+    padding: 2em;
+    padding-top: 0;
 }
-footer p a img{
-  width: 20px;
+
+section {
+    margin-bottom: 2em;
 }
+/* Main Content */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    padding: 2em;
+    margin-top: 8em;
+}
+
+.container p:first-child {
+    font-size: 1.8em;
+    font-weight: bold;
+    font-style: normal;
+    width: 18%;
+    flex: auto;
+    padding-left: 0;
+}
+
+.description {
+    font-size: 1.1em;
+
+}
+.container p img{
+    padding-top: 4%;
+}
+
+.box {
+    flex: 1 1 calc(60% - 1em); /* Adjust for gap */
+    padding: 1em;
+    text-align: left;
+    font-size: 1.36em;
+    font-style: italic;
+    line-height: 1.8em;
+    letter-spacing: 0.03em;
+}
+
+.quotetationMarks {
+  font-size: 2em;
+  font-weight: 600;
+/*  font-size: 4em;*/
+color: #3f433f;
+}
+
+
 @font-face {
   font-family: 'LaFont';
   src: url('../fonts/gothamhtfBook.eot') format('eot'), url('../fonts/gothamhtfBook.woff') format('woff'), url('../fonts/gothamhtfBook.ttf') format('truetype');
