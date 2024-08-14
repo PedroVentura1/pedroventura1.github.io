@@ -129,11 +129,31 @@ section {
     letter-spacing: 0.03em;
 }
 
+footer {
+    background-color: #f1f1f1;
+    color: #4a4a4a;
+    text-align: center;
+    padding: 2em 3em;
+}
+footer p {
+    float: left;
+}
+footer p:first-child {
+    float: right;
+}
+
 .quotetationMarks {
   font-size: 2em;
   font-weight: 600;
 /*  font-size: 4em;*/
 color: #3f433f;
+}
+
+.cont_portfolio {
+    flex-wrap: wrap;
+    gap: 1em;
+    padding: 2em;
+    padding-top: 8em;
 }
 
 
