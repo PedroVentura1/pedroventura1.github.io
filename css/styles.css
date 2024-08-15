@@ -275,22 +275,22 @@ color: #3f433f;
 
 .activo{
     background-color: #1459DE;
-    color: white!important;
-    border: none!important;
+    color: white;
+    border: none;
     pointer-events: none;
 }
 
 .activo_red{
     background-color: #E70024;
-    color: white!important;
-    border: none!important;
+    color: white;
+    border: none;
     pointer-events: none;
 }
 
 .activo_green {
     background-color: #36928A;
-    color: white!important;
-    border: none!important;
+    color: white;
+    border: none;
     pointer-events: none;
 }
 
