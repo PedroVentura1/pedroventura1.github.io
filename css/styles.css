@@ -300,6 +300,11 @@ color: #3f433f;
         padding-top: 3em;
     }
 
+    .walicon {
+            width: 100%;
+            padding-top: 3em;
+    }
+
 
 @media screen and (min-width: 1024px) {
 
