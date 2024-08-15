@@ -265,6 +265,15 @@ color: #3f433f;
     border: 1px solid #ad9e9e;
 }
 
+.page {
+    position: relative;
+    display: none;
+    overflow: scroll;
+/*    2nd example sith js*/
+        margin-top: 3em;
+}
+
+
 @media screen and (min-width: 1024px) {
 
     .Newinside_content {
