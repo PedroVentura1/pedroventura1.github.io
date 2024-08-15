@@ -6,27 +6,99 @@
       <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
       <link rel="stylesheet" type="text/css" href="css/normalize.css">
       <link rel="stylesheet" type="text/css" href="css/styles.css">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700&display=swap">
       <link rel="icon" href="img/favico.png" type="image/x-icon" />
       <title>Contact</title>
    </head>
    <body>
-      <div class="content"> <!-- for footer sticky -->
-         <div class="arrow"> <a href="index.html"> HOME </a> </div>  
-         <h2 class="port-title"> Contact</h2> 
-         <section>
-            <article>
-               <p class="link"> peyvent27@gmail.com </p>
-               <p class="link"> https://mx.linkedin.com/in/peventura </p> 
-            </article>
-         </section>  
-      </div>
-	 <footer>
-      		<p>
-		   <a href="https://mx.linkedin.com/in/peventura" target="_blank"><img src="https://image.flaticon.com/icons/svg/220/220201.svg" alt="linkedin"></a>
-      		   <a><img src="https://image.flaticon.com/icons/svg/994/994087.svg" alt="Contact"></a> 
-      		</p>
-     		<p>Derechos / Pedro Ventura 2018</p>      
-    	 </footer>
+      <div class="wrapper">
+        <header>
+            <nav aria-label="Main Navigation">
+                <a href="indexB.html"> <img src="img/PV_logo.svg"> </a>
+                <ul>
+                    <li><a href="indexB.html">About</a></li>  
+                    <li><a href="portfolio_page.html">Work</a></li>
+                    <li><a class="active" href="#Study">Studycases</a></li>
+                                  
+                </ul>                
+            </nav>
+        </header> 
+
+        <main class="no_margTop">  
+            <section>
+
+                <div id="navigation">
+                            <ul class="cases">
+                                <li><a href="#page1" data-target="page1" class="page-link">Walmart</a></li>  
+                                <li><a href="#page2" data-target="page2" class="page-link">Dupont</a></li>
+                                <li><a href="#page3" data-target="page3" class="page-link">SNTSS</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="pages2">
+
+                            <article id="page1" class="page">
+                                
+
+                                <div class="box_above "> <img class="walicon" src="img/wlt_img_case1.png"> </div>
+                               
+                                <div class="box_under ">
+                                    <h3>/ User Research Phase</h3>
+                                    <img src="img/img_research.png"> <br><br>
+                                    <img src="img/img_diagram.png">
+                                    <h3>/ First sketches to land ideas</h3>
+                                    <img src="img/sketch_low.png">
+                                    <h3>/ Wireframes and user flows </h3>
+                                    <img src="img/wr_low.png"> 
+                                    <h3>/ Hight fidelity screens </h3>
+                                    <img class="fix_image" src="img/walmart_img.png">   
+                                </div>
+                            </article>
+
+                            <article id="page2" class="page">
+                                 <div class="box_above "> <img class="walicon" src="img/DuponCase1.png"> </div>
+                                 <div class="box_under no_gradient">
+                                    <h3>/ Current State Journey Map & Future State Blueprint</h3>
+                                    <img src="img/DuponCase2.png"> <br><br>
+                                   
+                                    <h3>/ User Personas & Scenarios</h3>
+                                    <img src="img/DuponCase3.png">
+                                    <h3>/ Wireframes and user flows </h3>   
+                                    <img src="img/DuponCase4.png"> 
+                                </div>
+                                                            
+                            </article>
+
+                            <article id="page3" class="page">
+                                <div class="box_above "> <img class="walicon" src="img/SNTSS_case1.png"> </div>
+
+                                <div class="box_under no_gradient">
+
+                                     <h3>/ User Flows & Flowcharts</h3>
+                                    <img src="img/SNTSS_case2.png">  <br><br>                                    
+                                    <h3>/ Sketches and Braindstorming</h3>
+                                    <img src="img/SNTSS_case3.png">
+                                    <h3>/ Defining design system</h3>
+                                    <img src="img/SNTSS_case4.png">
+                                    <h3>/ High fidelity screens</h3>
+                                    <img src="img/SNTSS_case5.png">
+                                    
+                                </div>
+                                    
+                            </article>
+                        </div>
+
+
+            </section>  
+
+        </main>
+
+        
+        <footer>
+            <p>peyvent27@gmail.com   |  www.linkedin.com/in/peventura</p>
+            <p>&copy; Pedro Ventura 2024.</p>
+        </footer>
+    </div>
 
    </body>
 </html>
