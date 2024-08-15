@@ -226,6 +226,14 @@ color: #3f433f;
     line-height: 1.5em;
 }
 
+@media screen and (min-width: 1024px) {
+
+    .Newinside_content {
+            flex: 1 1 calc(50% - 1em);
+        }
+
+}
+
 
 
 
