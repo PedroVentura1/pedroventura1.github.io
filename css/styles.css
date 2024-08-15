@@ -196,6 +196,38 @@ color: #3f433f;
         padding-top: 0.2em;
 }
 
+.New_contentBox{
+    float: left;
+    width: 100%;
+        display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    padding: 9em;
+    padding-top: 0;
+    padding-bottom: 4em;
+}
+
+.Newinside_content {
+    padding: 1.5em;
+    text-align: left;
+    line-height: 1.8em;
+    letter-spacing: 0.03em;
+    padding-top: 0.5em;
+}
+.Newinside_content ul {
+    font-size: 0.9em;
+    line-height: 1em;
+    list-style-type: none;
+}
+.Newinside_content:nth-child(2){
+    padding-left: 4em;
+}
+.Newinside_content ul li b {
+    line-height: 1.5em;
+}
+
+
+
 
 
 @font-face {
