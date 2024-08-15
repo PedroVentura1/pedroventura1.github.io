@@ -273,6 +273,27 @@ color: #3f433f;
         margin-top: 3em;
 }
 
+.activo{
+    background-color: #1459DE;
+    color: white!important;
+    border: none!important;
+    pointer-events: none;
+}
+
+.activo_red{
+    background-color: #E70024;
+    color: white!important;
+    border: none!important;
+    pointer-events: none;
+}
+
+.activo_green {
+    background-color: #36928A;
+    color: white!important;
+    border: none!important;
+    pointer-events: none;
+}
+
  .box_above {
     background: white;
 /*    height: 10em;*/
