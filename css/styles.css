@@ -231,8 +231,6 @@ color: #3f433f;
 #navigation {
     position: fixed;
     width: 90%;
-/*    height: 100%;*/
-/*    border: 1px solid darkred;*/
     padding: 1em 0em 2em 16em;
     margin: auto;
     top: 7.9em;
@@ -247,21 +245,13 @@ color: #3f433f;
 }
 
 #navigation ul li {
-/*    margin: 0 1em;*/
     background-color: #F4F4F4;
     color: #404040;
-/*    padding: 0.5em 2em;*/
-/*    margin: 0.6em;*/
-   /* font-size: 1em;
-    cursor: pointer;
-    border: 1px solid #D2CBCB;
-    border-radius: 2em;*/
 }
 
 #navigation ul li a {
     text-decoration: none;
     color: #404040;
-/*    background-color: #F4F4F4;*/
     color: #404040;
     padding: 0.5em 2em;
     margin: 0.6em;
