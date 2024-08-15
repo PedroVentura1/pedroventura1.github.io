@@ -295,12 +295,12 @@ color: #3f433f;
   }
 
 @media (min-width: 768px) {
-  section article .description{
+ /* section article .description{
     width: 64.99%;      
       float: left;
       font-size: 1.4em;
       line-height: 2em;      
-  }
+  } */
   .collage{
     margin: 0 auto;
       text-align: center;     
