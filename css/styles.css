@@ -273,6 +273,33 @@ color: #3f433f;
         margin-top: 3em;
 }
 
+ .box_above {
+    background: white;
+/*    height: 10em;*/
+    margin: 17em;
+    margin-top: 9em;
+    margin-bottom: 0;
+    }
+
+    .box_under {
+/*        border: 1px solid red;*/
+        background: -webkit-gradient(linear, 0% 0%, 0% 40%, from(#CDCDCD), to(white));
+        padding: 4em;
+        margin: 17em;
+        margin-top: 0;
+        margin-bottom: 0;    
+        padding-top: 0;    
+    }
+
+    .box_under img {
+        width: 100%;
+    }
+
+    .box_under h3 {
+        padding-bottom: 1em;
+        padding-top: 3em;
+    }
+
 
 @media screen and (min-width: 1024px) {
 
