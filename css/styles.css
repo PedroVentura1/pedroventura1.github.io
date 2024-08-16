@@ -364,8 +364,11 @@ color: #3f433f;
           margin-top: -5em;  /*  CHECAR ESTE DIV PROBLEMA*/
             margin-left: -3em;
             margin-right: -3em;
-            padding-left: 3.5em;
-    
+            padding-left: 3.5em;    
+    }
+
+.no_gradient {
+        background: white!important;
     }
 
 
