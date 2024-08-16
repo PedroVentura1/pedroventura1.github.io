@@ -465,6 +465,11 @@ color: #3f433f;
             padding: 0.5em 0;
             display: inline-grid;
         }
+    
+        nav img {
+    
+            margin-top: 0.6em;
+        }
 
     
         nav img {
