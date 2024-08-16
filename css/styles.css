@@ -457,30 +457,25 @@ color: #3f433f;
         header, footer {
             padding: 0.5em 0;
             display: inline-grid;
+            }
+    
+        .no_margTop {
+            padding-top: 0;
         }
-
-    .no_margTop {
-        padding-top: 0;
-    }
-
-    .container {
-        padding: 0.5em;
-    }
-
-    .box {
-        padding: 0.5em;
-        font-size: 1em;
-        letter-spacing: 0.02em;
-        line-height: 1.5em;
-}
-     nav ul li a {
-        font-size: 1em;
-    }
-
-nav img {
-
-        margin-top: 0.6em;
-    }
+    
+        .container {
+            padding: 0.5em;
+        }
+    
+        .box {
+            padding: 0.5em;
+            font-size: 1em;
+            letter-spacing: 0.02em;
+            line-height: 1.5em;
+        }
+         nav ul li a {
+            font-size: 1em;
+        }
     
 }
 
