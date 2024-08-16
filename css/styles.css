@@ -460,8 +460,12 @@ color: #3f433f;
       font-size: 1.4em;
       line-height: 2em;      
   } */
-  header, footer {
+      header, footer {
             padding: 0.5em 0;
             display: inline-grid;
+        }
+    
+        nav img {
+            margin-top: 0.6em;
         }
 
