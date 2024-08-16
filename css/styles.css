@@ -469,3 +469,7 @@ color: #3f433f;
             margin-top: 0.6em;
         }
 
+        nav ul li a {
+            font-size: 1em;
+        }
+
