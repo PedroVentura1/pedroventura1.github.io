@@ -451,6 +451,10 @@ color: #3f433f;
     header img{
         margin-right:14px;
     }
+     .box {
+        flex: 1 1 100%;
+    }
+    
   }
 
 @media (max-width: 480px) {
