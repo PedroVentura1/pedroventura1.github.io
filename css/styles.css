@@ -481,6 +481,31 @@ color: #3f433f;
          nav ul li a {
             font-size: 1em;
         }
+
+         .new_tittle {
+            padding: 1em;
+        }
+        .new_tittle h2 {
+            font-size: 1.2em;
+        }
+        .description {
+            font-size: 1em;
+        }
+        .images {
+            padding: 0;
+            display: inline;
+        }
+        .New_contentBox  {
+            padding: 0;
+            padding-bottom: 1em;
+        }
+        .Newinside_content{
+            padding-bottom: 0;
+            padding: 1em;
+            padding-top: 0;
+            flex: none;
+            width: 100%;
+        }
     
 }
 
