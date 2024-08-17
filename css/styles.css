@@ -455,6 +455,14 @@ color: #3f433f;
     .Newinside_content:nth-child(2) {
         padding-left: 2em;
     }
+     nav ul {
+        flex-direction: inherit;  
+        margin-right: 1.2em;      
+    }
+
+    nav ul li {
+        margin: .8em;
+    }
     
   }
 
