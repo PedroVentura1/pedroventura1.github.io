@@ -510,6 +510,7 @@ color: #3f433f;
         width: 100%;
         float: left;
         height: auto;
+        border: 1px solid red;
     }
 
      #navigation {
