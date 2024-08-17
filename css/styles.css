@@ -508,7 +508,8 @@ color: #3f433f;
         }
      .images img {
         width: 100%;
-         float: left;
+        float: left;
+        height: auto;
     }
 
      #navigation {
