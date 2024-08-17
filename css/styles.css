@@ -528,6 +528,21 @@ color: #3f433f;
         padding: 1.6em;
     }
     
+    .box_above {
+    margin: 0;
+    margin-top: 5em;
+    }
+    
+    .box_under {
+        margin: 0;
+        padding: 1em;
+    }
+    
+    .box_under h3 {
+        padding-top: 1em;
+        padding-bottom: 0em;
+    }
+    
     
 }
 
