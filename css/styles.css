@@ -506,9 +506,9 @@ color: #3f433f;
             flex: none;
             width: 100%;
         }
-     .images img {
+    /* .images img {
         width: 100%;
-    }
+    } */
 
      #navigation {
         top: 5.8em;
