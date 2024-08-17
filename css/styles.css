@@ -506,6 +506,9 @@ color: #3f433f;
             flex: none;
             width: 100%;
         }
+     .images img {
+        width: 100%;
+    }
     
 }
 
