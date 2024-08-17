@@ -509,6 +509,22 @@ color: #3f433f;
      .images img {
         width: 100%;
     }
+
+     #navigation {
+        top: 5.8em;
+        padding: 0;
+        padding-bottom: 1.8em;
+        padding-top: 1em;
+    }
+    #navigation ul li a {
+        padding: 0.5em 1.6em;
+        margin-left: 0;
+    }
+    
+    main{
+        padding: 1.6em;
+    }
+    
     
 }
 
