@@ -474,7 +474,7 @@ color: #3f433f;
 }
 @media (max-width: 641px) {    
       
-   /* header img{
+      header img{
         margin-right:14px;
     }
      .box {
@@ -502,7 +502,7 @@ color: #3f433f;
     }
 
     
-
+/*
     .content-box {
         flex: 1 1 100%;
         float: left;
