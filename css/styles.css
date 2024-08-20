@@ -460,8 +460,20 @@ color: #3f433f;
     .container {
         padding: 1em;
     }
+    
 
-     .images {
+    
+  }
+
+  @media only screen and (min-width:641px) and (max-width:1080px){
+  .Box_container {
+      width: 100%;
+      margin-top: 1em;
+    }      
+}
+@media (max-width: 768px) {    
+
+      .images {
         padding: 4em;
         padding-top: 1em;
         padding-bottom: 0;
@@ -474,78 +486,11 @@ color: #3f433f;
     }
 
     
-
-    
-  }
-
-  @media only screen and (min-width:641px) and (max-width:1080px){
-  .Box_container {
-      width: 100%;
-      margin-top: 1em;
-    }      
-}
-@media (max-width: 641px) {    
-      
-  /* IT'S UP    header img{
-        margin-right:14px;
-    }
-     .box {
-        flex: 1 1 100%;
-    }
-    .cont_portfolio {
-        padding: 0;
-        margin-top: 3em;
-    }
-    .Newinside_content:nth-child(2) {
-        padding-left: 2em;
-    }
-     nav ul {
-        flex-direction: inherit;  
-        margin-right: 1.2em;      
-    }
-
-    nav ul li {
-        margin: .8em;
-    }
-
-
-    .container {
-        padding: 1em;
-    }
-
-    
-
-    .content-box {
-        flex: 1 1 100%;
-        float: left;
-        padding: 4em;
-    }
-
-    .content-box p {
-        padding-right: 0;
-        font-size: 1em;
-    }
-
-    .content-box:nth-child(2) {
-        width: 100%;
-    }
-
-    .new_tittle {
-        padding: 5em;
-        padding-top: 0;
-        padding-bottom: 0;
-    }
-    .images {
-        padding: 4em;
-        padding-top: 1em;
-        padding-bottom: 0;
-        height: auto;
-        border: 1px solid red;
-    }
     .New_contentBox {
         padding: 3em;
         padding-top: 0;
     }
+    
     
     /*.Newinside_content {
         flex: 1 1 calc(60% - 0em);
@@ -658,4 +603,5 @@ color: #3f433f;
   } */     
 
 }
+
 
