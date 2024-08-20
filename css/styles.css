@@ -178,7 +178,7 @@ color: #3f433f;
 /*    This is for new images and tittle */
         float: left;
     width: 50%;
-    height: auto;
+    height: fit-content;
     padding: 0.4em;  /*  I put this space betwen images  */
 }
 
