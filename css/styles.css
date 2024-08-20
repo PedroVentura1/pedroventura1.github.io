@@ -496,6 +496,7 @@ color: #3f433f;
         padding-top: 1em;
         padding-bottom: 0;
         height: auto;
+        border: 1px solid red;
     }
     .New_contentBox {
         padding: 3em;
