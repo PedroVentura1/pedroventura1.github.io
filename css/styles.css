@@ -468,7 +468,7 @@ color: #3f433f;
         display: inline-block;
     }
     .images img {
-        width: 100%;
+        width: 100%!important;
         float: left;
         height: auto;
     }
