@@ -382,6 +382,23 @@ color: #3f433f;
 
 }
 
+@media only screen and (min-width: 481px) and (max-width: 1024px) {
+
+    .box_above {
+        margin: 5em;
+        margin-bottom: 0;
+        margin-top: 8em;
+    }
+    .box_under {
+        margin: 5em;
+        margin-top: 0;
+    }
+    #navigation {
+        padding-left: 5em;
+    }
+
+}
+
 
 
 
