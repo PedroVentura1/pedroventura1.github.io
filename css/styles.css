@@ -487,6 +487,20 @@ color: #3f433f;
       width: 100%;
       margin-top: 1em;
     }      
+
+      .images {
+        padding: 4em;
+        padding-top: 1em;
+        padding-bottom: 0;
+        display: inline-block;
+    }
+    .images img {
+        width: 100%;
+        float: left;
+        height: auto;
+    }
+
+      
 }
 @media (max-width: 768px) {    
 
