@@ -277,7 +277,8 @@ color: #3f433f;
 }
 
 .pages2 p {
-    letter-spacing: .4px; 
+    letter-spacing: .4px;
+    line-height: 1.5em;
 }
 
 .activo{
