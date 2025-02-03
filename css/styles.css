@@ -276,6 +276,10 @@ color: #3f433f;
         margin-top: 3em;
 }
 
+.pages2 p {
+    letter-spacing: .4px; 
+}
+
 .activo{
     background-color: #1459DE;
     color: white!important;
