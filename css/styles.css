@@ -623,7 +623,7 @@ color: #3f433f;
     .box_under {
         margin: 0;
         padding: 1em;
-        background: -webkit-gradient(linear, 0% 50%, 0% 30%, from(#FFFFFF), color-stop(50%, #CDCDCD), to(white))
+        background: -webkit-gradient(linear, 0% 50%, 0% 30%, from(#FFFFFF), color-stop(50%, #CDCDCD), to(white));
     }
     
     .box_under h3 {
