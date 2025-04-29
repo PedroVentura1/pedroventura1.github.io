@@ -280,6 +280,7 @@ color: #3f433f;
 .pages2 p {
     letter-spacing: .4px;
     line-height: 1.5em;
+    font-size: 1.2em;
 }
 
 .activo{
@@ -569,7 +570,7 @@ color: #3f433f;
             flex: auto;
         }
          nav ul li a {
-            font-size: 1em;
+            font-size: 1.1em;
         }
 
          .new_tittle {
@@ -579,7 +580,7 @@ color: #3f433f;
             font-size: 1.2em;
         }
         .description {
-            font-size: 1em;
+            font-size: 1.1em;
         }
         .images {
             padding: 0;
