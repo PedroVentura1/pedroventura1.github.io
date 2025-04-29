@@ -332,7 +332,8 @@ color: #3f433f;
 
     .walicon {
             width: 100%;
-            padding-top: 3em;
+            padding-top: 0em;
+            margin-top: -10px;
     }
 
     .cont_cases {
