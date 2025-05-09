@@ -224,6 +224,7 @@ color: #3f433f;
     list-style-type: none;
     line-height: 1.34em;
     font-style: italic;
+    font-weight: 600;
 }
 
 .Newinside_content:nth-child(2){
