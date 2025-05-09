@@ -81,7 +81,8 @@ nav ul li a:hover {
 nav ul li a.active {
     color: #333;
   text-decoration: underline;
-  font-weight: 600;
+  /*font-weight: 600;*/
+  font-weight: bolder;
 }
 
 main {
@@ -571,7 +572,7 @@ color: #3f433f;
             flex: auto;
         }
          nav ul li a {
-            font-size: 1.1em;
+            font-size: 1.16em;
         }
 
          .new_tittle {
