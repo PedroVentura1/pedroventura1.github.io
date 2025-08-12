@@ -41,7 +41,7 @@ header {
     width: 100%;
     top: 0;
     border-color: #cccccc;
-    border-bottom-style: dotted;
+    border-bottom-style: double;
     padding-bottom: 1.3em;
     z-index: 1;
 }
