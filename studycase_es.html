@@ -1,0 +1,185 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Other Page</title>
+  <link rel="stylesheet" type="text/css" href="css/styless.css">
+     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700&display=swap">
+     <!-- <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> -->
+     <!-- <script src="js/script.js"></script> --> <!-- Aquí se carga el archivo JavaScript externo -->
+     <script type="module" src="js/main.js" defer></script>
+</head>
+<body>
+
+   <div class="wrapper">
+        
+        <header>
+              <nav aria-label="Main Navigation">
+                <!-- <img src="img/PV_logo.svg" alt="Logo"> -->
+                <a href="index_new.html"> <img src="img/PV_logo.svg" alt="Logo"> </a>
+
+                <ul>
+                  <li><a id="me" href="index_new.html">Sobre mi</a></li>
+                  <li><a id="work" href="portfolio.html">Trabajo</a></li>
+                  <li><a id="case" class="active" href="#studycases">Casos de estudio</a></li>
+                  <li class="no-left">
+                    <div class="language-wrapper">
+                      <span class="lang-icon"></span>
+                      <select class="language" id="languageSelector">
+                        <option value="en">EN</option>
+                        <option value="es">ES</option>
+                      </select>
+                    </div>
+                  </li>
+                </ul>
+              </nav>
+            </header>        
+        
+
+        <main class="no_margTop">  
+            <section>
+
+                <div id="navigation">
+                            <ul class="cases">
+                                <li><a href="#page1" data-target="page1" class="page-link">Inspección</a></li>  
+                                <li><a href="#page2" data-target="page2" class="page-link">Discovery</a></li>
+                                <li><a href="#page3" data-target="page3" class="page-link">Suministro</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="pages2">
+
+                            <article id="page1" class="page">
+                                
+
+                                <div class="box_above "> <img class="walicon" src="img/wlt_img_case1_es.png"> </div>
+                               
+                                <div class="box_under ">
+                                    <!-- <div> -->
+                                        <h3>/ Sobre el proyecto</h3>
+                                        <p> <b>Meta:</b> Desarrollar una app Android y de escritorio, implementando nuevas reglas de negocio y mejoras de usabilidad para personalizar y configurar las especificaciones de los productos. </p>
+
+                                        <br><p><b>Problema:</b> La aplicación actual es lenta y poco práctica para el contexto en el que se utiliza. Los trabajadores que operan en cámaras refrigeradas, equipados con ropa especial, suelen experimentar fallos de batería en las tabletas, lo que provoca la pérdida de datos previamente registrados. Como resultado, prefieren usar papel y bolígrafo, a pesar que implique trabajar el doble. </p>
+                                        
+                                        <br><p><b>Mi rol: </b>Analizar los datos de investigación para comprender el proceso de principio a fin y desarrollar soluciones iniciales basadas en los puntos de dolor del usuario y los problemas identificados.
+                                          </p> 
+                                         <h3>/ Fase de investigación del usuario</h3>
+                                         <p> Creación de diagramas de flujo para mapear procesos, comunicación, herramientas, formatos, flujos de aprobación y arquitectura de la información. </p> <br> 
+
+                                     <!-- </div> -->
+                                    <img src="img/img_research.png"> <br><br>
+                                    <img src="img/img_diagram_es.png">
+                                    <h3>/ Primeros bocetos para aterrizar ideas</h3>
+                                    <p>Posteriormente, se desarrolloron diferentes soluciones realizando bocetos con la información recopilada, guiado por los insights obtenidos. Esto permite identificar los datos clave necesarios para el registro en la aplicación, asegurando una inspección de calidad precisa y facilitando la toma de decisiones informadas. <br>
+                                    </p>
+                                    <p>Desarrollar soluciones para reducir tiempos mediante la colaboración con los equipos de contenido e investigación, definiendo estrategias para presentar la información de forma clara y eficaz. identificando campos innecesarios, incorporando elementos visuales —como imágenes de defectos frecuentes, características aceptadas del producto y datos en rangos o porcentajes— que facilitan la toma de decisiones y aumentan la eficiencia operativa. </p>
+                                    <br>
+                                    <img src="img/sketch_low.png">
+                                    <h3>/ Wireframes y flujos de usuario </h3>
+                                    <p>Se desarrollaron wireframes y prototipos de baja fidelidad para presentarlos al cliente, mostrando soluciones trabajadas con el equipo interno. Esto permitió recopilar retroalimentación, asegurar el alineamiento con las necesidades del cliente y obtener aprobación para definir el estilo de diseño e implementar los lineamientos de marca. </p>
+                                    <br>
+                                    <img src="img/wr_low.png"> 
+                                    <h3>/ Pantallas de alta fidelidad </h3>
+                                    <p>Estas soluciones desarrolladas para Android y escritorio integran la identidad visual de la marca y abordan los requerimientos del cliente relacionados con la inspección de productos.</p> <br>
+                                    <img class="fix_image" src="img/walmart_img.png">   
+                                </div>
+                            </article>
+
+                            <article id="page2" class="page">
+                                 <div class="box_above "> <img class="walicon" src="img/DuponCase1_es.png"> </div>
+                                 <div class="box_under no_gradient">
+                                     <h3>/ Sobre el proyecto</h3>   
+                                     <p>Un proyecto que comenzó desde la fase de inicio (kickoff), donde el equipo buscaba presentar soluciones viables, proponer mejoras estratégicas e integrar implementaciones tecnológicas basadas en las necesidades reales del cliente.</p>                                  
+                                        <p> <b>Meta :</b> Entender el negocio, recopilar insights e identificar los perfiles clave involucrados en el proceso. Detectar puntos de dolor y oportunidades, desarrollar esquemas del estado actual y futuro, y proponer soluciones basadas en los hallazgos. </p>
+                                        <br> <p> <b>Problema:</b>
+                                            De las sesiones con usuarios se identificaron los siguientes insights clave:
+                                       
+                                        <br> <br>
+                                        * Falta de una sección de soporte y asesoría. <br> 
+                                        * Dificultad para reemplazar productos dañados de manera rápida. <br>  
+                                        * No hay un seguimiento de productos necesarios para iniciar un proyecto. <br>
+                                        * Incertidumbre respecto a la instalación de algunos productos y falta de retroalimentación profesional sobre el proceso de instalación.
+                                    </p>
+                                    <p><br> <b> Mi rol:</b> Diseñé y definí las ilustraciones de las personas, formateé la información para los esquemas (blueprints) y establecí la paleta de colores, tipografía e iconografía.
+                                    </p> <p>Colaboré con el equipo de investigación para desarrollar y perfeccionar conceptos de soluciones futuras. Además, creé un mood board para idear y conceptualizar diferentes soluciones, lo que llevó al diseño de pantallas para plataformas móviles y de escritorio basadas en los hallazgos obtenidos.</p>
+
+                                    <h3>/ Journey map actual y estado futuro </h3>
+                                    <p>Definir los esquemas actuales y futuros, establecer la guía de estilo y resaltar la información clave, puntos de dolor, áreas de oportunidad y escenarios. Identificar las interacciones de los usuarios, las herramientas, los tiempos de las tareas y las tecnologías necesarias para el desarrollo de la solución.</p> <br>
+                                    <img src="img/DuponCase2.png"> <br><br>
+                                   
+                                    <h3>/ User Personas y Escenarios</h3>
+                                    <p>Diseñar ilustraciones de personas, generar ideas para escenarios y acciones, y desarrollar diferentes fases con interacciones clave de usuarios y propuestas de valor, con el fin de representar la propuesta en el documento para el cliente.</p> 
+                                    <br>
+                                    <img src="img/DuponCase3.png">
+                                    <h3>/ Wireframes y flujos de usuario </h3>   
+                                    <p>Estas pantallas, diseñadas para móvil y escritorio, representan soluciones basadas en los insights y hallazgos obtenidos durante la investigación. Fueron creadas para conceptualizar y definir soluciones futuras, involucrar al cliente y presentar de manera más específica las áreas de oportunidad. </p> <br>
+                                    <img src="img/DuponCase4.png"> 
+                                </div>
+                                                            
+                            </article>
+
+                            <article id="page3" class="page">
+                                <div class="box_above "> <img class="walicon" src="img/SNTSS_case1_es.png"> </div>
+
+                                <div class="box_under no_gradient">
+
+                                     <h3>/ Sobre el proyecto</h3>
+                                     <p> <b>Meta :</b>
+                                        Desarrollar una aplicación para controlar la entrada y salida de productos, así como el abastecimiento.
+                                    </p>
+                                    <br> <p> <b>Problema:</b>
+                                        Al final de cada año, realizan un inventario para justificar los gastos y solicitar el presupuesto para el año siguiente.
+                                        <br> <br> No hay registro del inventario de productos · Gastos injustificados 
+                                         · Falta de comunicación
+                                    </p>
+                                    <br> <p> <b> Mi rol:</b>
+                                       Comencé identificando las necesidades y problemas de los usuarios, y desarrollé un plan de investigación con objetivos claros y pasos definidos. También realicé entrevistas para comprender sus flujos de trabajo, la interacción con otras áreas y cómo comparten documentos al solicitar materiales.
+                                    </p>
+
+                                        <h3>/ Diagramas y Flujos de usuario </h3>
+                                        <p>
+                                            Elaboré un cuestionario para recopilar información, ya que no se contaba con datos previos. Además, colaboré con el equipo de desarrollo para crear los primeros diagramas de flujo e identificar perfiles y roles de usuario.
+                                     </p> <br>
+
+                                    <img src="img/SNTSS_img2.png">  <br><br>                                    
+                                    <h3>/ Bocetos e ideación </h3>
+                                    <p>Después de recopilar la información, creé un moodboard para explorar ideas y conceptos, definiendo elementos de diseño alineados con la identidad de la marca, como la paleta de colores, la iconografía y la tipografía, que sirvieron como base para el desarrollo del sistema de diseño.</p>
+                                    <br>
+                                    <p> Comencé realizando bocetos iniciales para definir las pantallas principales y luego colaboré con los desarrolladores para refinar la navegación y establecer la arquitectura de la información. Identificamos secciones clave como el panel principal (dashboard), reportes, artículos, gestión de pedidos y administración de almacén.
+                                    </p> <br>
+                                    <img src="img/SNTSS_case3.png">
+                                    <h3>/ Definición del sistema de diseño </h3>
+
+                                    <p>Desarrollé el sistema de diseño desde cero, colaborando estrechamente con el equipo de desarrollo para definir entregables, establecer guías de diseño y dar seguimiento al progreso mediante revisiones periódicas.</p>
+                                    <br>
+                                    <p>Definimos las variantes tipográficas (títulos, subtítulos, párrafos), las paletas de colores primarios y secundarios, los mensajes de éxito y error, los estilos y estados de los botones, así como la iconografía e imágenes.</p> <br>
+
+                                    <img src="img/SNTSS_case4.png">
+                                    <h3>/ Pantallas de alta fidelidad</h3>
+                                    <p>Se definió la retícula y se desarrollaron pantallas de alta fidelidad, implementando el sistema de diseño previamente establecido para el registro y gestión de la solución del cliente.</p> <br>
+                                    <img src="img/SNTSS_case5.png">
+                                    
+                                </div>
+                                    
+                            </article>
+                        </div>
+
+
+            </section>  
+
+        </main>
+
+
+        <footer>
+            <p>peyvent27@gmail.com   |  www.linkedin.com/in/peventura</p>
+            <p>&copy; Pedro Ventura 2025.</p>
+        </footer>
+   </div>
+
+  
+
+  
+</body>
+</html>
