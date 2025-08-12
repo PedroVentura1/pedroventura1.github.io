@@ -1,0 +1,640 @@
+/* styles.css */
+
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    padding-top: 0.6em;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    line-height: 1.15;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: .1.1250em;
+    color: #4a4a4a;
+    background: #F4F4F4;
+    visibility: hidden;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+/*    background-color: #333;*/
+    color: white;
+    padding: 2em;
+/*    styles for fixed position*/
+    position: fixed;
+    background-color: #f4f4f4;
+    width: 100%;
+    top: 0;
+    border-color: #cccccc;
+    border-bottom-style: dotted;
+    padding-bottom: 1.3em;
+    z-index: 1;
+}
+
+nav img{
+    float: left;
+    margin: 0.3em 1.6em;
+/*    margin-top: 0;*/
+    cursor: pointer;
+}
+
+nav img:hover {
+/*    filter: brightness(0) saturate(100%) invert(22%) sepia(86%) saturate(7482%) hue-rotate(353deg) brightness(106%) contrast(129%);*/
+      filter: invert(0.38) sepia(1) saturate(17.6) hue-rotate(326deg) brightness(1.2);
+
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: right;
+
+}
+
+nav ul li {
+    margin: 0 1em;
+}
+
+nav ul li a {
+    color: #333;
+    text-decoration: none;
+    font-size: 1.18em;
+}
+
+nav ul li a:hover {
+    color: black;
+    text-decoration: underline;
+    color: #3E3535;
+    font-weight: 600;
+}
+
+nav ul li a.active {
+    color: #333;
+  text-decoration: underline;
+  font-weight: bolder;
+}
+
+nav ul img {
+    border: 1px solid red;
+    height: max-content;
+}
+
+.language {
+    float: left;
+    all: unset;
+    margin: auto;
+    border: none;
+/*    color: #333;*/
+    color: #145CF5;
+    outline: none;
+    box-shadow: none;
+    cursor: pointer;
+}
+
+main {
+    flex: 1;
+    padding: 2em;
+    padding-top: 0;
+}
+
+section {
+    margin-bottom: 2em;
+}
+
+section h2 {
+/*    margin-bottom: 0.5em;*/
+    border-top-style: dotted;
+  /*  border-top-style: double;  -- This is the previous line style */
+    border-color: #A0A0A0;
+    padding-top: 1em;
+}
+
+.nostyle {
+    border-top-style: none;
+}
+
+.subtitle {
+        padding-top: 0.6em;
+}
+
+/* Main Content */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    padding: 2em;
+    margin-top: 8em;
+}
+
+.container p:first-child {
+    font-size: 1.8em;
+    font-weight: bold;
+    font-style: normal;
+    width: 18%;
+    flex: auto;
+    padding-left: 0;
+    padding-bottom: initial;
+    margin-bottom: -0.8em;
+}
+.container p:last-child {
+    font-size: 1.8em;
+    font-weight: bold;
+    margin-top: -1.2em;
+    float: right;
+    margin-right: 0.5em;
+}
+
+.quotationMarks {
+    /* REVISAR - I THINK IT'S NOT WORKING */
+    font-size: 2em;
+    font-weight: 600;
+    /* font-size: 4em; */
+    color: #3f433f;
+}
+
+
+.description {
+    font-size: 1.1em;
+
+}
+.container p img{
+    padding-top: 4%;
+/*    width: 100%;*/
+}
+
+
+.box {
+    flex: 1 1 calc(60% - 1em); /* Adjust for gap */
+/*    background-color: #f4f4f4;*/
+    padding: 1em;
+    text-align: left;
+/*    border: 1px solid #ccc;*/
+    font-size: 1.36em;
+    font-style: italic;
+    line-height: 1.8em;
+    letter-spacing: 0.03em;
+}
+
+
+footer {
+    background-color: #f1f1f1;
+    color: #4a4a4a;
+    text-align: center;
+    padding: 2em 3em;
+}
+footer p {
+    float: left;
+}
+footer p:first-child {
+    float: right;
+}
+
+
+/* container portfolio */
+.cont_portfolio {
+/*    display: flex;*/  /*   Quité esto para que el div "new_tittle" ocupe 100 del width*/
+    flex-wrap: wrap;
+    gap: 1em;
+/*    padding: 2em;*/
+    padding: 0em; /* este lo puse en 0 para dar mas espacio en tablet */
+    padding-top: 8em;
+/*    background: greenyellow;*/
+
+}
+
+.images {
+/*    border: 1px solid red;*/
+    display: inline-flex;
+    float: left;
+    width: 100%;
+/*    padding: 10em;*/
+    padding: 10em;  /* este lo bajé a 6 para ganar mas espacio */
+    padding-top: 1em;
+    padding-bottom: 0;
+/*    padding: inherit;    */
+}
+
+.images img {
+/*    This is for new images and tittle */
+        float: left;
+    width: 50%;
+/*    height: auto;*/
+    height: fit-content;
+    height: min-intrinsic;
+    padding: 0.4em;  /*  I put this space betwen images  */
+}
+
+
+
+
+.walicon {
+     width: 100%;
+    padding-top: 0em;
+    margin-top: -10px;
+}
+
+
+.fix_image {
+    width: 100%;
+}
+
+.no_gradient {
+        background: white!important;
+    }
+
+    .box_above {
+    background: white;
+/*    height: 10em;*/
+    margin: 17em;
+    margin-top: 9em;
+    margin-bottom: 0;
+    }
+
+    .box_under {
+/*        border: 1px solid red;*/
+        background: -webkit-gradient(linear, 0% 40%, 0% 10%, from(#FFFFFF), color-stop(50%, #CDCDCD), to(white));
+        padding: 4em;
+        margin: 17em;
+        margin-top: 0;
+        margin-bottom: 0;    
+        padding-top: 0;    
+    }
+
+    .box_under img {
+        width: 100%;
+    }
+
+    .box_under h3 {
+        padding-bottom: 1em;
+        padding-top: 3em;
+    }
+
+
+/*///// CODE LANGUAGE*/
+
+.language-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding-top: 0;
+/*      border: 1px solid green;*/
+      font-weight: 900;
+}
+
+.lang-icon {
+/*  border: 1px solid red;*/
+
+    background: url("../img/icon_lang.svg") no-repeat;      
+    width: 1em;
+    height: 1em;
+    filter: sepia(1);
+    fill: blue; 
+    color: red; 
+
+}
+
+.new_tittle {
+/*    border: 1px solid red;*/
+    float: left;
+    width: 100%;
+/*    padding: 11em;*/
+    padding: 10.5em; /* este lo bajé para alinear en tablet */
+    padding-bottom: 0;
+    padding-top: 0;
+}
+
+.New_contentBox{
+/*    border: 1px solid green;*/
+    float: left;
+    width: 100%;
+        display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+/*    padding: 9em;*/
+    padding: 5em;  /* este lo bajé a 5 para ganar espacio */
+    padding-top: 0;
+    padding-bottom: 4em;
+
+}
+
+.Newinside_content {
+    /*flex: 1 1 calc(50% - 1em);*/ /* Adjust for gap */
+    padding: 5.5em;
+    text-align: left;
+    /* border: 1px solid #ccc; */
+    line-height: 1.7em;
+    letter-spacing: 0.02em;
+/*    width: 50%;*/
+    padding-top: 0.5em;
+}
+.Newinside_content ul {
+    font-size: 1.1em;
+    line-height: 1em;
+    list-style-type: none;
+    line-height: 1.3em;
+    font-weight: 600;
+}
+.Newinside_content:nth-child(2){
+    padding-left: 4em;
+}
+.Newinside_content ul li b {
+    line-height: 1.5em;
+    font-style: italic;
+}
+
+/*styles to hide the studycases*/
+
+#navigation {
+    position: fixed;
+    width: 90%;
+/*    height: 100%;*/
+/*    border: 1px solid darkred;*/
+    padding: 1em 0em 2em 16em;
+    margin: auto;
+    top: 7.2em;
+    background: #f4f4f4;
+    z-index: 1;    
+}
+
+#navigation ul {
+    list-style: none;
+    display: flex;
+}
+
+#navigation ul li {
+/*    margin: 0 1em;*/
+    background-color: #F4F4F4;
+    color: #404040;
+/*    padding: 0.5em 2em;*/
+/*    margin: 0.6em;*/
+   /* font-size: 1em;
+    cursor: pointer;
+    border: 1px solid #D2CBCB;
+    border-radius: 2em;*/
+}
+
+#navigation ul li a {
+    text-decoration: none;
+    color: #404040;
+/*    background-color: #F4F4F4;*/
+    color: #404040;
+    padding: 0.5em 2em;
+    margin: 0.6em;
+    font-size: 1em;
+    cursor: pointer;
+    border: 1px solid #D2CBCB;
+    border-radius: 2em;
+}
+
+#navigation ul li a:hover {
+    border: 1px solid #ad9e9e;
+}
+
+#pages {
+/*    margin-left: 270px; /* 250px + 20px of actual margin */
+    width: 85%;
+    margin-top: 12em;
+    border: 1px solid gray;
+}
+
+.page {
+    position: relative;
+    display: none;
+    overflow: scroll;
+/*    2nd example sith js*/
+        margin-top: 3em;
+}
+
+.pages2 p {
+    letter-spacing: .4px; /* I added this for study cases detail */
+    font-size: 1.2em;
+    line-height: 1.5em;
+}
+
+
+.activo{
+    background-color: #1459DE;
+    color: white!important;
+    border: none!important;
+    pointer-events: none;
+}
+
+.activo_red{
+    background-color: #E70024;
+    color: white!important;
+    border: none!important;
+    pointer-events: none;
+}
+
+.activo_green {
+    background-color: #36928A;
+    color: white!important;
+    border: none!important;
+    pointer-events: none;
+}
+
+
+
+
+/* Media Queries */
+
+
+@media screen and (min-width: 1024px) {
+
+    .Newinside_content {
+            flex: 1 1 calc(50% - 1em);
+        }
+
+}
+
+@media only screen and (min-width: 481px) and (max-width: 1024px) {
+
+    .box_above {
+        margin: 5em;
+        margin-bottom: 0;
+        margin-top: 8em;
+    }
+    .box_under {
+        margin: 5em;
+        margin-top: 0;
+    }
+    #navigation {
+        padding-left: 5em;
+    }
+
+}
+
+
+@media (max-width: 768px) {
+
+    
+     .container {
+        padding: 1em;
+    }
+
+    .box {
+        flex: 1 1 100%;
+    }
+
+
+}
+
+@media screen and (max-width: 641px) {
+
+    .Newinside_content:nth-child(2) {
+        padding-left: 2em;
+    }
+}
+
+
+@media (max-width: 480px) {
+
+    header, footer {
+        padding: 0.5em 0;
+        display: inline-grid;
+    }
+
+    .no_margTop {
+        padding-top: 0;
+    }
+
+    .container {
+        padding: 0.5em;
+        margin-top: 4em;
+        margin-bottom: 0em;
+    }
+
+    .box {
+        padding: 0.5em;
+        font-size: 1.2em;
+        letter-spacing: 0.02em;
+        line-height: 1.5em;
+}
+
+.cont_portfolio {
+        padding: 0;
+        margin-top: 3em;
+    }
+
+    nav ul li {
+        margin: .8em;
+    }
+
+ nav ul li a {
+        font-size: 1.16em;
+    }
+
+/*nav img {
+
+        margin-top: 0.6em;
+    }*/
+
+    .lang-icon{
+            display: none;
+    }
+
+    .no-left {
+        margin-left: 1em;
+    }
+
+    .language {
+        margin-right: 1em;
+    }
+
+.box_above {
+    margin: 0;
+    margin-top: 5em;
+}
+
+.box_under {
+    margin: 0;
+    padding: 1em;
+    background: -webkit-gradient(linear, 0% 50%, 0% 30%, from(#FFFFFF), color-stop(50%, #CDCDCD), to(white));
+}
+
+.box_under h3 {
+    padding-top: 1em;
+    padding-bottom: 0em;
+}
+
+    /* New styles for portfolio section //////  */
+    .new_tittle {
+        padding: 1em;
+    }
+    .new_tittle h2 {
+        font-size: 1.4em;
+    }
+    .description {
+        font-size: 1.22em;
+        line-height: 1.5em;
+    }
+    .images {
+        padding: 0;
+        display: inline;
+    }
+    .New_contentBox  {
+        padding: 0;
+        padding-bottom: 1em;
+    }
+    .Newinside_content{
+        padding-bottom: 0;
+        padding: 1em;
+        padding-top: 0;
+        flex: none;
+        width: 100%;
+    }
+
+    .images img {
+        width: 100%;
+    }
+/*    new buttons cases study*/
+    #navigation {
+        /*padding: 0.8em 0em 1.5em 0em;  /*here is the issue wiht a lot of space */
+        top: 5.8em;
+/*        width: 90%;*/
+/*        margin-top: 3em;*/
+        padding: 0;
+        padding-bottom: 1.8em;
+        padding-top: 1em;
+    }
+    #navigation ul li a {
+        padding: 0.5em 1.4em;
+        margin-left: 0;
+        font-size: .92em;
+    }
+    
+/*    //  this affects the main label//*/
+    main{
+        padding: 1.6em;        
+    }
+
+}
+
+
+
+
+/*/// para probar .json*/
+ #output {
+    margin-bottom: 40px; /* Aumenta el espacio entre párrafos */
+    line-height: 1.6;     /* Mejora la legibilidad del texto */
+  }
+
+  p {
+    margin-bottom: 8px; /* Aumenta el espacio entre párrafos */
+
+  }
