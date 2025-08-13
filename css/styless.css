@@ -128,7 +128,8 @@ section h2 {
 }
 
 .subtitle {
-        padding-top: 1em;
+    padding-top: 1em;
+    font-size: 1.1em;
 }
 
 /* Main Content */
@@ -579,9 +580,6 @@ footer p:first-child {
     }
     .new_tittle h2 {
         font-size: 1.4em;
-    }
-    .subtitle {
-        font-size: 1.1em;
     }
     .description {
         font-size: 1.22em;
