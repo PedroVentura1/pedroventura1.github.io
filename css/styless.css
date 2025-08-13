@@ -342,6 +342,7 @@ footer p:first-child {
     top: 6.9em;
     background: rgb(244, 244, 244, 85%);
     backdrop-filter: blur(16px);
+    border-radius: 0 0 10px 10px;
     z-index: 1;    
 }
 
