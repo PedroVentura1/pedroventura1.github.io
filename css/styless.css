@@ -422,6 +422,7 @@ footer p:first-child {
     letter-spacing: .4px; /* I added this for study cases detail */
     font-size: 1.2em;
     line-height: 1.5em;
+    padding-bottom: 0.5em;
 }
 
 
@@ -629,10 +630,9 @@ footer p:first-child {
 /*/// para probar .json*/
  #output {
     margin-bottom: 40px; /* Aumenta el espacio entre párrafos */
-    line-height: 1.6;     /* Mejora la legibilidad del texto */
+    line-height: 1.8em;     /* Mejora la legibilidad del texto */
   }
 
-  p {
-    margin-bottom: 1.5em; /* Aumenta el espacio entre párrafos */
-
+  #output p:nth-child(2) {
+     margin-bottom: 1.2em;
   }
