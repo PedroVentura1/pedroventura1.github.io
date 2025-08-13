@@ -634,7 +634,7 @@ footer p:first-child {
 /*/// para probar .json*/
  #output {
     margin-bottom: 40px; /* Aumenta el espacio entre párrafos */
-    line-height: 1.8em;     /* Mejora la legibilidad del texto */
+    line-height: 1.6em;     /* Mejora la legibilidad del texto */
   }
 
   #output p:nth-child(2) {
