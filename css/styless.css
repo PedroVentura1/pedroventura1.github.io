@@ -633,6 +633,6 @@ footer p:first-child {
   }
 
   p {
-    margin-bottom: 8px; /* Aumenta el espacio entre párrafos */
+    margin-bottom: 1.5em; /* Aumenta el espacio entre párrafos */
 
   }
