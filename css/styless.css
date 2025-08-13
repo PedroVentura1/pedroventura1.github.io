@@ -153,7 +153,7 @@ section h2 {
 .container p:last-child {
     font-size: 1.8em;
     font-weight: bold;
-    margin-top: -1.2em;
+    margin-top: -0.5em;
     float: right;
     margin-right: 0.5em;
 }
