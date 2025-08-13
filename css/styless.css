@@ -32,10 +32,8 @@ body {
 }
 
 header {
-/*    background-color: #333;*/
     color: white;
     padding: 2em;
-/*    styles for fixed position*/
     position: fixed;
     background-color: #f4f4f4;
     width: 100%;
@@ -99,7 +97,6 @@ nav ul img {
     all: unset;
     margin: auto;
     border: none;
-/*    color: #333;*/
     color: #145CF5;
     outline: none;
     box-shadow: none;
@@ -159,15 +156,6 @@ section h2 {
     margin-right: 0.5em;
 }
 
-.quotationMarks {
-    /* REVISAR - I THINK IT'S NOT WORKING */
-    font-size: 2em;
-    font-weight: 600;
-    /* font-size: 4em; */
-    color: #3f433f;
-}
-
-
 .description {
     font-size: 1.2em;
 
@@ -176,7 +164,6 @@ section h2 {
     padding-top: 4%;
 /*    width: 100%;*/
 }
-
 
 .box {
     flex: 1 1 calc(60% - 1em); /* Adjust for gap */
@@ -207,23 +194,19 @@ footer p:first-child {
 
 /* container portfolio */
 .cont_portfolio {
-/*    display: flex;*/  /*   Quité esto para que el div "new_tittle" ocupe 100 del width*/
     flex-wrap: wrap;
     gap: 1em;
 /*    padding: 2em;*/
-    padding: 0em; /* este lo puse en 0 para dar mas espacio en tablet */
+    padding: 0em; 
     padding-top: 8em;
-/*    background: greenyellow;*/
-
 }
 
 .images {
-/*    border: 1px solid red;*/
     display: inline-flex;
     float: left;
     width: 100%;
 /*    padding: 10em;*/
-    padding: 10em;  /* este lo bajé a 6 para ganar mas espacio */
+    padding: 10em; 
     padding-top: 1em;
     padding-bottom: 0;
 /*    padding: inherit;    */
@@ -236,10 +219,8 @@ footer p:first-child {
 /*    height: auto;*/
     height: fit-content;
     height: min-intrinsic;
-    padding: 0.4em;  /*  I put this space betwen images  */
+    padding: 0.4em; 
 }
-
-
 
 
 .walicon {
@@ -266,7 +247,6 @@ footer p:first-child {
     }
 
     .box_under {
-/*        border: 1px solid red;*/
         background: -webkit-gradient(linear, 0% 40%, 0% 10%, from(#FFFFFF), color-stop(50%, #CDCDCD), to(white));
         padding: 4em;
         margin: 17em;
@@ -297,8 +277,6 @@ footer p:first-child {
 }
 
 .lang-icon {
-/*  border: 1px solid red;*/
-
     background: url("../img/icon_lang.svg") no-repeat;      
     width: 1em;
     height: 1em;
@@ -313,20 +291,19 @@ footer p:first-child {
     float: left;
     width: 100%;
 /*    padding: 11em;*/
-    padding: 10.5em; /* este lo bajé para alinear en tablet */
+    padding: 10.5em; 
     padding-bottom: 0;
     padding-top: 0;
 }
 
 .New_contentBox{
-/*    border: 1px solid green;*/
     float: left;
     width: 100%;
         display: flex;
     flex-wrap: wrap;
     gap: 1em;
 /*    padding: 9em;*/
-    padding: 9em;  /* este lo bajé a 5 para ganar espacio */
+    padding: 9em;  
     padding-top: 0;
     padding-bottom: 4em;
 
@@ -339,7 +316,6 @@ footer p:first-child {
     /* border: 1px solid #ccc; */
     line-height: 1.8em;
     letter-spacing: 0.02em;
-/*    width: 50%;*/
     padding-top: 0.5em;
 }
 .Newinside_content ul {
@@ -361,8 +337,6 @@ footer p:first-child {
 #navigation {
     position: fixed;
     width: 90%;
-/*    height: 100%;*/
-/*    border: 1px solid darkred;*/
     padding: 1em 0em 2em 16em;
     margin: auto;
     top: 6.9em;
@@ -376,21 +350,13 @@ footer p:first-child {
 }
 
 #navigation ul li {
-/*    margin: 0 1em;*/
     background-color: #F4F4F4;
     color: #404040;
-/*    padding: 0.5em 2em;*/
-/*    margin: 0.6em;*/
-   /* font-size: 1em;
-    cursor: pointer;
-    border: 1px solid #D2CBCB;
-    border-radius: 2em;*/
 }
 
 #navigation ul li a {
     text-decoration: none;
     color: #404040;
-/*    background-color: #F4F4F4;*/
     color: #404040;
     padding: 0.5em 2em;
     margin: 0.6em;
@@ -405,7 +371,6 @@ footer p:first-child {
 }
 
 #pages {
-/*    margin-left: 270px; /* 250px + 20px of actual margin */
     width: 85%;
     margin-top: 12em;
     border: 1px solid gray;
@@ -415,7 +380,7 @@ footer p:first-child {
     position: relative;
     display: none;
     overflow: scroll;
-/*    2nd example sith js*/
+/*    2nd example with js*/
         margin-top: 3em;
 }
 
@@ -447,7 +412,6 @@ footer p:first-child {
     border: none!important;
     pointer-events: none;
 }
-
 
 
 
@@ -606,10 +570,7 @@ footer p:first-child {
     }
 /*    new buttons cases study*/
     #navigation {
-        /*padding: 0.8em 0em 1.5em 0em;  /*here is the issue wiht a lot of space */
         top: 5.82em;
-/*        width: 90%;*/
-/*        margin-top: 3em;*/
         padding: 0;
         padding-bottom: 1.8em;
         padding-top: 1em;
@@ -629,9 +590,7 @@ footer p:first-child {
 }
 
 
-
-
-/*/// para probar .json*/
+/*/// .json*/
  #output {
     line-height: 1.6em;     /* Mejora la legibilidad del texto */
   }
