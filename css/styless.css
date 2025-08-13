@@ -580,6 +580,9 @@ footer p:first-child {
     .new_tittle h2 {
         font-size: 1.4em;
     }
+    .subtitle {
+        font-size: 1.1em;
+    }
     .description {
         font-size: 1.22em;
         line-height: 1.5em;
