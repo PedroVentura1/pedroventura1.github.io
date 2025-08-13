@@ -325,7 +325,7 @@ footer p:first-child {
     flex-wrap: wrap;
     gap: 1em;
 /*    padding: 9em;*/
-    padding: 5em;  /* este lo bajé a 5 para ganar espacio */
+    padding: 9em;  /* este lo bajé a 5 para ganar espacio */
     padding-top: 0;
     padding-bottom: 4em;
 
@@ -333,10 +333,10 @@ footer p:first-child {
 
 .Newinside_content {
     /*flex: 1 1 calc(50% - 1em);*/ /* Adjust for gap */
-    padding: 5.5em;
+    padding: 1.5em;
     text-align: left;
     /* border: 1px solid #ccc; */
-    line-height: 1.7em;
+    line-height: 1.8em;
     letter-spacing: 0.02em;
 /*    width: 50%;*/
     padding-top: 0.5em;
