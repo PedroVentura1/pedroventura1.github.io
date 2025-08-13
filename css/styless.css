@@ -340,7 +340,8 @@ footer p:first-child {
     padding: 1em 0em 2em 16em;
     margin: auto;
     top: 6.9em;
-    background: #f4f4f4;
+    background: rgb(244, 244, 244, 85%);
+    backdrop-filter: blur(16px);
     z-index: 1;    
 }
 
@@ -350,13 +351,11 @@ footer p:first-child {
 }
 
 #navigation ul li {
-    background-color: #F4F4F4;
     color: #404040;
 }
 
 #navigation ul li a {
     text-decoration: none;
-    color: #404040;
     color: #404040;
     padding: 0.5em 2em;
     margin: 0.6em;
@@ -364,6 +363,7 @@ footer p:first-child {
     cursor: pointer;
     border: 1px solid #D2CBCB;
     border-radius: 2em;
+    background: #FFF;
 }
 
 #navigation ul li a:hover {
@@ -393,21 +393,21 @@ footer p:first-child {
 
 
 .activo{
-    background-color: #1459DE;
+    background-color: #1459DE!important;
     color: white!important;
     border: none!important;
     pointer-events: none;
 }
 
 .activo_red{
-    background-color: #E70024;
+    background-color: #E70024!important;
     color: white!important;
     border: none!important;
     pointer-events: none;
 }
 
 .activo_green {
-    background-color: #36928A;
+    background-color: #36928A!important;
     color: white!important;
     border: none!important;
     pointer-events: none;
