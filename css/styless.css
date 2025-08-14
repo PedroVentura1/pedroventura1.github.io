@@ -96,6 +96,7 @@ nav ul img {
     float: left;
     all: unset;
     margin: auto;
+    margin-top: 0.2em;
     border: none;
     color: #145CF5;
     outline: none;
@@ -277,13 +278,11 @@ footer p:first-child {
 }
 
 .lang-icon {
-    background: url("../img/icon_lang.svg") no-repeat;      
-    width: 1em;
-    height: 1em;
+    background: url("../img/icon_lang.svg") no-repeat; 
+    background-size: 1.3em;
+    width: 1.2em;
+    height: 1.2em;
     filter: sepia(1);
-    fill: blue; 
-    color: red; 
-
 }
 
 .new_tittle {
