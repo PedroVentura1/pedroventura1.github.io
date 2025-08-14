@@ -93,9 +93,9 @@ nav ul img {
 }
 
 .language {
-   /* float: left;
+   /* float: left; */
     all: unset; 
-    margin: auto; */
+    margin: auto; 
     margin-top: 0.2em;
     border: none;
     color: #145CF5;
