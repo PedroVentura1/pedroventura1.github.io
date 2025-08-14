@@ -519,7 +519,7 @@ footer p:first-child {
   .language-wrapper select.language {
         background-image: none;
         margin-left: -1.8em;
-        margin-right: 0em;
+        margin-right: 1em;
     }  
 
     .no-left {
