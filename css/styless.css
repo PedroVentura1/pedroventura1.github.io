@@ -93,10 +93,10 @@ nav ul img {
 }
 
 .language {
-    float: left;
-    all: unset;
+   /* float: left;
+    all: unset; 
     margin: auto;
-    margin-top: 0.2em;
+    margin-top: 0.2em; */
     border: none;
     color: #145CF5;
     outline: none;
@@ -269,21 +269,33 @@ footer p:first-child {
 /*///// CODE LANGUAGE*/
 
 .language-wrapper {
-  display: flex;
+  display: inline-flex; /* Alinea icono + select si agregas icono inline */
+  position: relative;
   align-items: center;
-  gap: 4px;
-  padding-top: 0;
-/*      border: 1px solid green;*/
-      font-weight: 900;
+  margin-top: -0.6em;
 }
 
-.lang-icon {
-    background: url("../img/icon_lang.svg") no-repeat; 
-    background-size: 1.3em;
-    width: 1.2em;
-    height: 1.2em;
-    filter: sepia(1);
+.language-wrapper select.language {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+
+  padding-left: 1.4em; /* espacio para icono si lo pones como background */
+  font-size: 1em;
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+
+  color: #145CF5; /* color texto */
+  font-weight: bold;
+
+  background-repeat: no-repeat;
+  background-position: left center;
+  /*background-image: url('../img/icon_lang.svg');*/ 
+  background-image: url('/img/icon_lang.svg');
+  background-size: 1.3em;
 }
+
 
 .new_tittle {
 /*    border: 1px solid red;*/
