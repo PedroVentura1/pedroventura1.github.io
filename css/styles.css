@@ -280,7 +280,7 @@ footer p:first-child {
   -webkit-appearance: none;
   -moz-appearance: none;
 
-  padding-left: 1.5em; /* espacio para icono si lo pones como background */
+  padding-left: 1.4em; 
   font-size: 1em;
   cursor: pointer;
   border: none;
@@ -291,7 +291,6 @@ footer p:first-child {
 
   background-repeat: no-repeat;
   background-position: left center;
-  /*background-image: url('../img/icon_lang.svg');*/ 
   background-image: url('/img/icon_lang.svg');
   background-size: 1.3em;
 }
