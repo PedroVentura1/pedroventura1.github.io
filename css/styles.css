@@ -516,14 +516,11 @@ footer p:first-child {
         font-size: 1.16em;
     }
 
-/*nav img {
-
-        margin-top: 0.6em;
-    }*/
-
-    .lang-icon{
-            display: none;
-    }
+  .language-wrapper select.language {
+        background-image: none;
+        margin-left: -1.8em;
+        margin-right: 0em;
+    }  
 
     .no-left {
         margin-left: 0.8em;
