@@ -11,18 +11,20 @@
       },
       {
         "parts": [
-          { "text": "Hello, my name is Pedro. I’m a UX Product Designer focused on ", "bold": false },
-          { "text": "creating meaningful digital experiences that add real value.", "bold": true },
-          { "text": " I work closely with cross-functional teams to ", "bold": false },
-          { "text": "bring products to life—from concept to launch", "bold": true },
-          { "text": "—through design principles, prototyping, and usability testing. I thrive in collaborative environments and enjoy transforming complex challenges into intuitive, user-centered solutions.", "bold": false }
+          { "text": "I’m ", "bold": false },
+          { "text": "Pedro, a Product Designer with 10+ years", "bold": true },
+          { "text": " creating digital products in ", "bold": false },
+          { "text": "complex environments: finance, insurance, healthcare, government, and retail.", "bold": true }          
         ]
       },
       {
         "parts": [
-          { "text": "Experienced in projects across finance, banking, insurance, pharmaceuticals, government, and e-commerce, I’ve led end-to-end design processes—from ", "bold": false },
-          { "text": "research and wireframing to high-fidelity prototyping", "bold": true },
-          { "text": " and product rollout. I collaborate with agile, multidisciplinary teams and embrace new challenges that push me to learn and innovate.", "bold": false }
+          { "text": "The challenge isn’t just designing something that looks good — it’s making sure it", "bold": false },
+          { "text": "solves the right problem.", "bold": true },
+          { "text": "I lead the process from discovery to delivery, working closely with product, engineering, and business teams so every decision has a clear purpose.", "bold": false },
+          { "text": "I don’t just design interfaces: I ", "bold": false },
+          { "text": "connect user needs with business goals ", "bold": true },
+          { "text": "to make products more useful, usable, and effective. ", "bold": false }
         ]
       },
       {
