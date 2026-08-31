@@ -19,8 +19,8 @@
       },
       {
         "parts": [
-          { "text": "The challenge isn’t just designing something that looks good — it’s making sure it", "bold": false },
-          { "text": "solves the right problem. ", "bold": true },
+          { "text": "The challenge isn’t just designing something that looks good — it’s making sure it ", "bold": false },
+          { "text": " solves the right problem. ", "bold": true },
           { "text": " I lead the process from discovery to delivery, working closely with product, engineering, and business teams so every decision has a clear purpose. ", "bold": false },
           { "text": " I don’t just design interfaces: I ", "bold": false },
           { "text": "connect user needs with business goals ", "bold": true },
