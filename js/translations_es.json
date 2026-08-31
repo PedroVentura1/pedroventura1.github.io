@@ -11,18 +11,20 @@
       },
       {
         "parts": [
-          { "text": "Hola, mi nombre es Pedro. Soy UX Product Designer enfocado en ", "bold": false },
-          { "text": "crear experiencias digitales significativas que aportan valor y generan un impacto positivo.", "bold": true },
-          { "text": " Trabajo con equipos multidisciplinarios para ", "bold": false },
-          { "text": "diseñar productos desde el concepto hasta su lanzamiento,", "bold": true },
-          { "text": " aplicando principios de diseño centrado en el usuario, prototipado y pruebas de usabilidad. Disfruto colaborar en equipo y transformar retos complejos en soluciones intuitivas.", "bold": false }
+          { "text": "Soy ", "bold": false },
+          { "text": "Pedro, Product Designer con más de 10 años", "bold": true },
+          { "text": " creando productos digitales en ", "bold": false },
+          { "text": "entornos complejos: finanzas, seguros, salud, gobierno y retail.", "bold": true }          
         ]
       },
       {
         "parts": [
-          { "text": "Cuento con experiencia en proyectos en sectores como finanzas, banca, seguros, farmacéutica, gobierno y comercio electrónico. He liderado procesos de diseño de principio a fin, desde ", "bold": false },
-          { "text": "la investigación y los wireframes hasta los prototipos de alta fidelidad", "bold": true },
-          { "text": " y el lanzamiento del producto. Colaboro con equipos ágiles y multidisciplinarios, y valoro los desafíos que me impulsan a aprender e innovar.", "bold": false }
+          { "text": "El reto no es solo diseñar algo que se vea bien: es asegurar que ", "bold": false },
+          { "text": " resuelva el problema correcto.", "bold": true },
+          { "text": " Lidero el proceso desde el discovery hasta la entrega, trabajando de cerca con equipos de producto, ingeniería y negocio para que cada decisión tenga un propósito claro. ", "bold": false },
+          { "text": "No solo diseño interfaces: ", "bold": false },
+          { "text": " conecto la necesidad del usuario con el objetivo del negocio", "bold": true },
+          { "text": "para que el producto sea más útil, usable y efectivo.", "bold": false }
         ]
       },
       {
