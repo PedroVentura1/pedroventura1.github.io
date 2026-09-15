@@ -54,22 +54,18 @@
 
                         <div class="pages2">
 
-                            <article id="page1" class="page">
-                                
+                            <article id="page1" class="page">                                
 
                                 <div class="box_above "> <img class="walicon" src="img/Retail_img_case1_en.png"> </div>
                                
                                 <div class="box_under no_gradient ">
-                                    <!-- <div> -->
-                                        
-                                        <p> <b>Rol:</b> Product Designer (process mapping, UX, cross-functional alignment)</p>
-
+                                    <!-- <div> -->                                        
+                                     <p> <b>Rol:</b> Product Designer (process mapping, UX, cross-functional alignment)</p>
                                         <h3> Context and problem</h3>
                                         <p>A large-scale retail company ran a promotional process that involved multiple teams operating at different moments with different tools. The system was built in stages — not designed as a whole.
                                          </p> <br>
                                         <p> This created:
                                             <br>
-
                                             <ul class="highlight">
                                                 <li> Duplicated work and loss of context between teams.</li>
                                                 <li> Dependencies between areas that were never clearly defined.</li>
@@ -114,40 +110,67 @@
 
                             <article id="page2" class="page">
                                  <div class="box_above "> <img class="walicon" src="img/wlt_img_case1.png"> </div>
-                                 <div class="box_under ">
-                                     <h3>/ About the Project </h3>   
-                                    <p> <b>Goal:</b> Develop Android and desktop applications with new business rules and usability improvements to customize and configure product specifications.</p>
-
-                                        <br><p><b>Problem:</b> The current application is slow and time-consuming. Workers in refrigerated chambers, wearing special clothes, frequently experience tablet battery drain, causing data loss. As a result, they prefer using pen and paper, even if it means working twice as hard.</p>
-                                        <p>Additionally, the application contains irrelevant fields, and the administrator cannot implement new specifications or business rules for inspections, as they were not included initially.</p>
-                                        
-                                        <br><p><b>My role: </b>Analyze the research data to understand the end-to-end process, and develop initial solutions based on user pain points and identified problems. 
-                                          </p>                                    
+                                 <div class="box_under ">                                      
+                                    <p> <b>Rol:</b> Product Designer — UX, UI, research-to-product translation, flow and business rules definition, alignment with business and engineering.</p>                                                                         
                                    
-                                    <h3>/ User Research </h3>
-                                         <p>Creation of flowcharts to map processes, communication, tools, formats, approval workflows, and information architecture.</p> <br>
-                                     <!-- </div> -->
+                                    <h3>Context and problem</h3>
+                                         <p>A large-scale retail company used a tablet app for inspectors to record and approve perishable merchandise. Operations took place across different contexts — from refrigerated chambers to distribution centers and field work.</p> <br>
+                                         <p>The existing tool had been built as a generic solution for different products and scenarios, but it didn't adapt well to real operations.</p>
+                                         <p> This created several friction points:
+                                            <br>
+                                            <ul class="highlight">
+                                                <li> Overly generic data capture: the app displayed fields that didn't apply to all products, causing confusion and unnecessary work.</li>
+                                                <li> Rigid business rules: adding or modifying specifications required development intervention.</li>
+                                                <li> Difficult decisions in the field: inspectors needed to consult supervisors or rely on samples to determine whether merchandise should be approved.</li>
+                                                <li> Connectivity issues: in scenarios without a stable connection, information could be lost or not recorded correctly.</li>
+                                            </ul>
+                                        </p>
+                                       <p>Working in refrigerated chambers required special clothing and gloves to protect against extreme cold, which made it difficult to handle the tablet. The battery drained quickly due to the temperature and, without auto-save, losing collected data was a real risk. Pen and paper was more reliable.</p>                                 
+                                   
                                     <img src="img/img_research.png"> <br><br>
                                     <img src="img/img_diagram.png">
-                                    <h3>/ Initial Sketches to Explore Ideas</h3>
-                                    <p>Next, explore various solutions and sketches based on the collected information, indetifying key inputs and insights for registering data in the application to ensure optimal product quality inspection and decision-making. <br>
-                                    </p>
-                                    <p>Develop solutions to reduce time by collaborating with the content and research team on how to present information effectively. Identify unnecessary fields and integrate visual aids, such as images of common defects and accepted product characteristics, along with ranges or percentages, to support decision-making and improve efficiency. </p>
+                                   
+                                    <h3>My approach / strategy</h3>
+                                    <p>I joined the project after the research phase. My role was to analyze existing journeys, pain points and real field usage data, and translate those findings into product and design decisions. <br>
+                                      From that information I identified that the problem wasn't only capture speed. The product also wasn't designed to adapt to the operation it was meant to support. 
+                                    </p>                                   
+                                   <p> I defined the strategy around two connected needs:
+                                            <br>
+                                            <ul class="highlight">
+                                                <li> Inspectors: a fast, clear experience focused only on the information relevant to the product they were inspecting.</li>
+                                                <li> Administrators: a flexible way to configure specifications, rules and exceptions without depending on development.</li>
+                                            </ul>
+                                      </p>
+                                     <p>This led to designing not just a new inspection experience, but also the system that allowed it to be configured.</p>
+                                   
                                     <br>
                                     <img src="img/sketch_low.png">
-                                    <h3>/ Wireframes and User Flows </h3>
-                                    <p>Low-fidelity wireframes and prototypes were developed and presented to the client, showcasing solutions created collaboratively with the internal team. </p>
-                                    <br>
-                                    <p> This process allowed us to gather feedback, ensure alignment with the client’s needs, and secure approval to define the visual style and apply brand guidelines. The client also appreciated the integration of new business rules that supported different types of inspections.</p>  <br>
+                                    <h3>Solution and key decisions </h3>
+                                    <p>Role-differentiated experiences </p> <br> 
+                                    <p> I designed specific experiences for inspectors and administrators. The inspector saw only the information and actions needed to complete an inspection, while the administrator had tools to manage the rules that shaped that experience.</p>  
+                                    <p> Configuration without development <br> I designed a desktop business rules system that allowed administrators to create and modify specifications based on the product and operating conditions. This included scenarios such as out-of-season products or exceptions to acceptance criteria, defined by the business teams. The goal was for rule changes to be managed from within the product, rather than becoming constant requests to development. </p>
+                                    <p> Product-specific data capture <br> Instead of presenting a generic list of fields for all products, I structured the experience so inspectors focused only on the characteristics relevant to the product they were evaluating. This reduced unnecessary information and made decision-making during inspections easier. </p>
+                                    <p> Visual aids for decision-making <br> I incorporated visual references within the experience to help inspectors determine whether a product met acceptance criteria. The intent was to bring the knowledge needed to make that decision directly to the point of inspection, reducing the need to constantly consult other people. </p>
+                                    <p> Design for offline scenarios <br> Operations didn't always occur with a stable connection. To prevent data loss during an inspection, I incorporated auto-save and accounted for how the experience would behave when connectivity was unavailable. </p>
+                                   
                                     <img src="img/wr_low.png"> 
-                                    <h3>/ High-Fidelity Screens</h3>
-                                    <p>The final Android and desktop designs align with the brand’s visual identity and directly address the client’s needs for efficient product inspections.</p> <br>
-                                    <p>Through these improvements, the solution not only enhanced usability but also improved team efficiency and product scalability: <b> - Optimized data capture </b> to minimize errors during inspections.  <b> - Streamlined flows </b> by removing unnecessary steps and focusing solely on product inspection. <b> - Implemented reusable components</b> to accelerate development and ensure consistency. </p> <br>
-                                    <p>These enhancements delivered a smoother inspection experience, reduced friction for users, and established a scalable foundation for future iterations.</p>  <br>
+                                    <h3>Impact / results</h3>
+                                   <p> The new solution was approved by the client and adopted for operations.
+                                            <br>
+                                            <ul class="highlight">
+                                                <li> Less friction for inspectors: the experience adapted to the product being inspected, eliminating information they didn't need.</li>
+                                                <li> Greater autonomy for the business: administrators could configure new products, rules and exceptions without depending directly on development.</li>
+                                                <li> Clearer decisions in the field: relevant references and criteria were available within the inspection experience</li>
+                                                <li> More reliable data capture: auto-save reduced the risk of losing information in low-connectivity scenarios</li>
+                                                <li> Sustained use: four years after launch, the tool was still in active use</li>
+                                            </ul>
+                                      </p>
+                                     <p> More than redesigning an existing app, the project turned a generic and underused tool into a system adaptable to the real needs of the operation.</p>                                  
+                                   
                                   <img class="fix_image" src="img/walmart_img.png">   
-                                </div>
-                                                            
+                                </div>                                                            
                             </article>
+                          
 
                             <article id="page3" class="page">
                                 <div class="box_above "> <img class="walicon" src="img/SNTSS_case1.png"> </div>
